@@ -12,7 +12,7 @@ cask "prune" do
     regex(/"version":\s*"(\d+(?:\.\d+)+)"/i)
   end
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "prune.app", target: "Prune.app"
 
