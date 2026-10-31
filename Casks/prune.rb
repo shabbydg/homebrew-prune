@@ -14,7 +14,7 @@ cask "prune" do
 
   depends_on macos: ">= :monterey"
 
-  app "Prune.app"
+  app "prune.app", target: "Prune.app"
 
   zap trash: [
     "~/Library/Application Support/com.prune.app",
