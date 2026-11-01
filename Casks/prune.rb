@@ -1,6 +1,6 @@
 cask "prune" do
-  version "0.9.12"
-  sha256 "38f89491b8b96ce24a652f7241e5cd5f1b40292c6709b18e10933b40837aa489"
+  version "0.9.13"
+  sha256 "d3d093529b68df17a72c6de120ed5df56e0bb34cfc93fa84f50e0a6d54425a6c"
 
   url "https://prune.digitalarc.lk/downloads/Prune_#{version}_universal.dmg"
   name "Prune"
